@@ -38,28 +38,29 @@ On paper, any organization can look good. It doesn't stop the breaches, usually 
   1. We anticipate that you will confirm the independence of the CISO (and their department)
 
 ## Essential Cyber Hygeine
-  1. We want to know that the basics are in place: 
-    1. No passwords, or a strong (but sensible) password policy
-    1. Default passwords are changed
-    1. No passwords in the Top 100k password lists are used by anyone
-    1. Passwords are not stored in plain text ever.
-    1. Passwords do not have an upper limit of characters
-    1. Principle of Least Privilege is adhered to, where ever possible
-    1. Networks segmentation is adhered to
-    1. "Production" data is only used in production, and not for testing.
-    1. Data Leakage Prevention technologies are in use, and have been tested sufficiently
-    1. Training is available to everyone covering modern practices, and that people who do not pass the training do not have elevated permissions, or access to sensitive data. 
-    1. Training is continual, not annual.
-    1. People do not walk around with "super admin" permissions all the time, but if they need it for a task, they can have access as needed.
-    1. User accounts are not shared.
-    1. HR support Cyber in taking appropriate action for breaches of policy, at all levels of the firm, including C-suite.
-    1. People are not fired/treated unfairly for raising security concerns.
-    1. A whistleblowing service is available in all countries you operate in and workers are made aware of it.
-    1. You know, and will share (on request), the high-level types of data that flow through each system
-    1. You will learn from incidents
-    1. You will conduct realistic, cross-functional, desktop exercises to build up confidence in incidents and crises
-    1. You strive for continual improvement, and increasing cyber maturity
-    1. You won't sweep things under the carpet because they are inconvenient or embarassing
+  1. We want to know that the basics are in place:
+     1. Passwords
+        1. No passwords, or a strong (but sensible) password policy
+        1. Default passwords are changed
+        1. No passwords in the Top 100k password lists are used by anyone
+        1. Passwords are not stored in plain text ever.
+        1. Passwords do not have an upper limit of characters
+      1. Principle of Least Privilege is adhered to, where ever possible
+      1. Networks segmentation is adhered to
+      1. "Production" data is only used in production, and not for testing.
+      1. Data Leakage Prevention technologies are in use, and have been tested sufficiently
+      1. Training is available to everyone covering modern practices, and that people who do not pass the training do not have elevated permissions, or access to sensitive data. 
+      1. Training is continual, not annual.
+      1. People do not walk around with "super admin" permissions all the time, but if they need it for a task, they can have access as needed.
+      1. User accounts are not shared.
+      1. HR support Cyber in taking appropriate action for breaches of policy, at all levels of the firm, including C-suite.
+      1. People are not fired/treated unfairly for raising security concerns.
+      1. A whistleblowing service is available in all countries you operate in and workers are made aware of it.
+      1. You know, and will share (on request), the high-level types of data that flow through each system
+      1. You will learn from incidents
+      1. You will conduct realistic, cross-functional, desktop exercises to build up confidence in incidents and crises
+      1. You strive for continual improvement, and increasing cyber maturity
+      1. You won't sweep things under the carpet because they are inconvenient or embarassing
 
 ## The SSO Tax
   1. We don't believe we should pay extra for helping you secure your stack -- give us:
@@ -68,8 +69,9 @@ On paper, any organization can look good. It doesn't stop the breaches, usually 
   1. We also want to know what's going on in our SaaS, so give us not just access to our log data, but also an API we can use, and ideally maintained connectors to our SIEM.
 
 ## Meaningful Encryption
-< cloud makes it too easy to see stuff>
-Not just at rest/in transit, but in use
+  1. Whilst data may be encrypted `at rest` and `in transit`, cloud services usually make it easy for people with access to see the contents of the data (and the metadata)
+      1. We want to know what steps you've taken to reduce this
+      1. We want to know your stance on `encryption in use` and/or `confidential computing`.
 
 ## AI
   1. AI is used safely
